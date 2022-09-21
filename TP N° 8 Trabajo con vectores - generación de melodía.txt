@@ -1,4 +1,4 @@
-int speakerPin = 9;     //Declararel PIN digital D9 para el Piezo Speaker
+int speakerPin = 9;     //Declarar el PIN digital D9 para el Piezo Speaker
 int longitud = 33;      //Numero de notas que contiene la melodia mas uno
 char notas[] = "ccfagfg deffgfe ccfagfg deffedcd ccfagfg deffgfe ccfagfg "; //Notas musicales. Los espacios son notas vacias
 int golpes[] = { 1, 1, 4, 1, 1, 1, 4, 2, 1, 1, 4, 2, 1, 1, 4, 2, 1, 1, 4, 1, 1, 1, 4, 2, 1, 1, 4, 2, 1, 1, 1, 4, 2}; //Duracion de cada una de las notas musicales
